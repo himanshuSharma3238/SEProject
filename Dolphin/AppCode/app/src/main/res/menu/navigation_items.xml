@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/Home"
+        android:title="@string/home"
+
+        android:icon="@drawable/baseline_home_24"/>
+    <item
+        android:id="@+id/MyProfile"
+        android:title="@string/myprofile"
+        android:icon="@drawable/baseline_person_24_color"
+        />
+    <item android:title="@string/assignments"
+        android:id="@+id/Assignments"
+        android:icon="@drawable/baseline_assignment_24"
+        />
+    <item android:id="@+id/PYQ"
+        android:title="@string/previous_year_question"
+        android:icon="@drawable/baseline_menu_book_24"/>
+    <item android:id="@+id/guideline"
+        android:title="@string/guidelines"
+        android:icon="@drawable/baseline_article_24"/>
+    <item android:title="@string/settings"
+        android:icon="@drawable/baseline_settings_24"
+        android:id="@+id/Setting"/>
+    <item android:id="@+id/Logout"
+        android:icon="@drawable/baseline_login_24"
+        android:title="@string/logout"/>
+</menu>
